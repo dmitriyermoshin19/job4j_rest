@@ -14,8 +14,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/report")
-public class ReportController {
+@RequestMapping("/integration")
+public class IntegrationController {
     @Autowired
     private RestTemplate rest;
 
